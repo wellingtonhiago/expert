@@ -1,0 +1,10 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - ai.SerializationKt.configureSerialization
+      - ai.StatusPagesKt.configureStatusPages
+      - ai.KoinKt.configureKoin
+      - ai.MongoKt.configureMongo
+      - ai.RoutingKt.configureRouting
