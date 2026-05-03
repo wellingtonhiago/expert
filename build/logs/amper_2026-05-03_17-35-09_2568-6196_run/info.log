@@ -1,0 +1,9 @@
+JetBrains Amper version 0.10.0 (21d29c8, 2026-03-30)
+running on Windows 11 10.0 jvm arch amd64
+
+00:35.396 INFO  :expert:compileJvm        JvmCompileTask            Compiling module 'expert' for platform 'jvm'...
+00:45.665 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/di/MongoModule.kt:3:22 Unresolved reference 'infrastructure'.
+00:45.666 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/di/MongoModule.kt:10:9 Cannot infer type for type parameter 'T'. Specify it explicitly.
+00:45.666 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/di/MongoModule.kt:10:30 Unresolved reference 'connectToMongoDB'.
+00:45.666 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/features/ai/AiRoutes.kt:5:22 Unresolved reference 'plugins'.
+00:45.666 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/features/ai/AiRoutes.kt:21:22 Unresolved reference 'isKoogAvailable'.

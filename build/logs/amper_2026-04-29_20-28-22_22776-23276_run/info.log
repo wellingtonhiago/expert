@@ -1,0 +1,6 @@
+JetBrains Amper version 0.10.0 (21d29c8, 2026-03-30)
+running on Windows 11 10.0 jvm arch amd64
+
+00:19.939 INFO  :expert:compileJvm        Downloader                Downloading https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip to C:\Users\welli\AppData\Local\JetBrains\Amper\download.cache\b4a1870e03-OpenJDK21U-jdk_x64_windows_hotspot_21.0.11_10.zip
+00:38.420 INFO  :expert:compileJvm        JvmCompileTask            Compiling module 'expert' for platform 'jvm'...
+00:50.717 INFO  :expert:runJvm            AbstractJvmRunTask        Process exited with exit code 0
