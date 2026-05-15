@@ -1,20 +1,21 @@
 package ai.plugins
 
-import ai.example.HelloService
-import io.ktor.server.application.*
-import org.koin.dsl.module
+import ai.di.MongoModule
+import ai.di.NutricionistaModule
+import br.com.expert.di.PacienteModule
+import io.ktor.server.application.Application
+import io.ktor.server.application.install
 import org.koin.ktor.plugin.Koin
-import org.koin.logger.slf4jLogger
+import org.koin.logger.SLF4JLogger
 
 fun Application.configureKoin() {
+    // 1. Install Koin for Dependency Injection
     install(Koin) {
-        slf4jLogger()
-        modules(module {
-            single<HelloService> {
-                HelloService {
-                    println(environment.log.info("Hello, World!"))
-                }
-            }
-        })
+        SLF4JLogger()
+        modules(
+            MongoModule.mongoModule(this@configureKoin),
+            NutricionistaModule.module,
+            PacienteModule.module
+        )
     }
 }
