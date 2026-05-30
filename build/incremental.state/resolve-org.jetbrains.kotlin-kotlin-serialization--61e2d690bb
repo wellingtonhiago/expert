@@ -1,0 +1,15 @@
+{
+    "codeVersion": "0.10.0",
+    "inputValues": {},
+    "inputFiles": [],
+    "inputFilesState": {},
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-serialization-compiler-plugin-embeddable\\2.3.20\\kotlin-serialization-compiler-plugin-embeddable-2.3.20.jar"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-serialization-compiler-plugin-embeddable\\2.3.20\\kotlin-serialization-compiler-plugin-embeddable-2.3.20.jar": "size 568281 mtime 2026-04-29T23:28:56.6173534Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}

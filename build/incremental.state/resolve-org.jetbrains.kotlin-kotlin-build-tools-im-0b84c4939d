@@ -1,0 +1,37 @@
+{
+    "codeVersion": "0.10.0",
+    "inputValues": {},
+    "inputFiles": [],
+    "inputFilesState": {},
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-impl\\2.3.20\\kotlin-build-tools-impl-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-api\\2.3.20\\kotlin-build-tools-api-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-stdlib\\2.3.20\\kotlin-stdlib-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-cri-impl\\2.3.20\\kotlin-build-tools-cri-impl-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-embeddable\\2.3.20\\kotlin-compiler-embeddable-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-runner\\2.3.20\\kotlin-compiler-runner-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\annotations\\23.0.0\\annotations-23.0.0.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-script-runtime\\2.3.20\\kotlin-script-runtime-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-reflect\\1.6.10\\kotlin-reflect-1.6.10.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-embeddable\\2.3.20\\kotlin-daemon-embeddable-2.3.20.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-core-jvm\\1.8.0\\kotlinx-coroutines-core-jvm-1.8.0.jar",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-client\\2.3.20\\kotlin-daemon-client-2.3.20.jar"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\annotations\\23.0.0\\annotations-23.0.0.jar": "size 29371 mtime 2026-04-23T14:42:25.9582743Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-api\\2.3.20\\kotlin-build-tools-api-2.3.20.jar": "size 168792 mtime 2026-04-23T20:32:26.7349612Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-cri-impl\\2.3.20\\kotlin-build-tools-cri-impl-2.3.20.jar": "size 571402 mtime 2026-04-23T20:32:26.2669598Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-impl\\2.3.20\\kotlin-build-tools-impl-2.3.20.jar": "size 1460858 mtime 2026-04-23T20:32:26.5269611Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-embeddable\\2.3.20\\kotlin-compiler-embeddable-2.3.20.jar": "size 59718536 mtime 2026-04-23T20:32:28.6529639Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-runner\\2.3.20\\kotlin-compiler-runner-2.3.20.jar": "size 20147 mtime 2026-04-23T20:32:26.2869595Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-client\\2.3.20\\kotlin-daemon-client-2.3.20.jar": "size 243178 mtime 2026-04-23T20:32:26.2819604Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-embeddable\\2.3.20\\kotlin-daemon-embeddable-2.3.20.jar": "size 368343 mtime 2026-04-23T20:32:26.2799579Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-reflect\\1.6.10\\kotlin-reflect-1.6.10.jar": "size 3038560 mtime 2026-04-23T20:32:26.2619601Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-script-runtime\\2.3.20\\kotlin-script-runtime-2.3.20.jar": "size 44972 mtime 2026-04-23T20:32:26.3289591Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-stdlib\\2.3.20\\kotlin-stdlib-2.3.20.jar": "size 1804720 mtime 2026-04-23T14:42:24.2225124Z",
+        "C:\\Users\\welli\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-core-jvm\\1.8.0\\kotlinx-coroutines-core-jvm-1.8.0.jar": "size 1548360 mtime 2026-04-23T20:32:25.6791597Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}
