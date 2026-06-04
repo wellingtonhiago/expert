@@ -1,0 +1,37 @@
+{
+    "codeVersion": "0.10.0",
+    "inputValues": {
+        "junit-listeners-classpath": "amper-junit-listeners-jvm.jar\nserviceMessages-2024.12.jar\nkotlin-stdlib-2.3.10.jar\nmordant-jvm-3.0.1.jar\nannotations-13.0.jar\nmordant-core-jvm-3.0.1.jar\nmordant-jvm-jna-jvm-3.0.1.jar\nmordant-jvm-ffm-jvm-3.0.1.jar\nmordant-jvm-graal-ffi-jvm-3.0.1.jar\njna-5.14.0.jar\ncolormath-jvm-3.6.0.jar"
+    },
+    "inputFiles": [],
+    "inputFilesState": {},
+    "outputValues": {},
+    "outputFiles": [
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\amper-junit-listeners-jvm.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\serviceMessages-2024.12.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\kotlin-stdlib-2.3.10.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-3.0.1.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\annotations-13.0.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-core-jvm-3.0.1.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-jna-jvm-3.0.1.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-ffm-jvm-3.0.1.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-graal-ffi-jvm-3.0.1.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\jna-5.14.0.jar",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\colormath-jvm-3.6.0.jar"
+    ],
+    "outputFilesState": {
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\amper-junit-listeners-jvm.jar": "size 39585 mtime 2026-06-03T19:20:45.2995702Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\annotations-13.0.jar": "size 17536 mtime 2026-06-03T19:20:45.3219602Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\colormath-jvm-3.6.0.jar": "size 352563 mtime 2026-06-03T19:20:45.3519752Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\jna-5.14.0.jar": "size 1878533 mtime 2026-06-03T19:20:45.3459717Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\kotlin-stdlib-2.3.10.jar": "size 1797000 mtime 2026-06-03T19:20:45.318581Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-core-jvm-3.0.1.jar": "size 652597 mtime 2026-06-03T19:20:45.3279659Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-3.0.1.jar": "size 436 mtime 2026-06-03T19:20:45.3205802Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-ffm-jvm-3.0.1.jar": "size 229120 mtime 2026-06-03T19:20:45.3339671Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-graal-ffi-jvm-3.0.1.jar": "size 35776 mtime 2026-06-03T19:20:45.3349692Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\mordant-jvm-jna-jvm-3.0.1.jar": "size 38316 mtime 2026-06-03T19:20:45.3299741Z",
+        "C:\\Users\\welli\\MeusProjetos\\expert\\build\\temp\\amper-junit-listeners\\serviceMessages-2024.12.jar": "size 65507 mtime 2026-06-03T19:20:45.3015938Z"
+    },
+    "excludedOutputFiles": [],
+    "dynamicInputs": {}
+}
