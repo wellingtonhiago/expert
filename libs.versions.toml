@@ -15,3 +15,4 @@ mongodb-driverCore = { module = "org.mongodb:mongodb-driver-core", version.ref =
 mongodb-driverSync = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodb" }
 mongodb-driverCoroutine = { module = "org.mongodb:mongodb-driver-kotlin-coroutine", version.ref = "mongodb" }
 koog-agents = { module = "ai.koog:koog-ktor", version.ref = "koog" }
+ktor-server-config-yaml = "io.ktor:ktor-server-config-yaml"

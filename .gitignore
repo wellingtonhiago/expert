@@ -1,0 +1,16 @@
+# Kotlin Toolchain
+.kotlin/
+
+# Build
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

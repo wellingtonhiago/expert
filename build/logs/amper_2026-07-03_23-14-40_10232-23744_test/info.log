@@ -1,8 +1,0 @@
-JetBrains Amper version 0.10.0 (21d29c8, 2026-03-30)
-running on Windows 11 10.0 jvm arch amd64
-
-00:03.461 INFO  :expert:compileJvm        JvmCompileTask            Compiling module 'expert' for platform 'jvm'...
-00:16.291 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/features/nutriai/NutriAiRoutes.kt:6:29 Unresolved reference 'use'.
-00:16.295 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/features/nutriai/NutriAiRoutes.kt:59:19 Cannot infer type for type parameter 'R'. Specify it explicitly.
-00:16.297 ERROR :expert:compileJvm        KotlinBuildToolsApiKt     file:///C:/Users/welli/MeusProjetos/expert/src/features/nutriai/NutriAiRoutes.kt:59:19 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
-fun <T : Closeable?, R> T.use(block: (T) -> R): R
