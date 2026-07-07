@@ -16,7 +16,7 @@ dependencies:
   - $libs.mongodb.driverCore
   - $libs.mongodb.driverSync
   - $libs.mongodb.driverCoroutine
-  - ai.koog:koog-ktor:0.5.1
+  - $libs.koog.agents
 
 test-dependencies:
 - $ktor.server.testHost

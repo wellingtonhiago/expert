@@ -1,6 +1,7 @@
 package ai.plugins
 
 import ai.di.MongoModule
+import ai.di.NutriAiModule
 import ai.di.NutricionistaModule
 import br.com.expert.di.PacienteModule
 import io.ktor.server.application.Application
@@ -15,7 +16,8 @@ fun Application.configureKoin() {
         modules(
             MongoModule.mongoModule(this@configureKoin),
             NutricionistaModule.module,
-            PacienteModule.module
+            PacienteModule.module,
+            NutriAiModule.module
         )
     }
 }
