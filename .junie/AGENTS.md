@@ -10,7 +10,7 @@ Este documento é o guia de referência para a Junie e para os desenvolvedores q
 
 O Nutri-AI API é um servidor **Ktor** (Netty) escrito em **Kotlin**, com:
 
-- **Amper** como ferramenta de build (`module.yaml` / `libs.versions.toml`).
+- **Kotlin Toolchain** como ferramenta de build (`module.yaml` / `libs.versions.toml`).
 - **MongoDB** como banco de dados, acessado via **driver coroutine** (assíncrono).
 - **Koin** para injeção de dependências (Inversão de Controle).
 - **Koog** (`$libs.koog.agents`) para a integração de IA (endpoint `/ai/chat`).
@@ -22,7 +22,7 @@ O ponto de entrada é `src/main.kt`, que sobe o servidor com `io.ktor.server.net
 
 ## Build & Configuração
 
-A ferramenta de build é o **Amper**.
+A ferramenta de build é o **Kotlin Toolchain**.
 
 ### Pré-requisitos
 - JDK 17 ou superior.
@@ -40,15 +40,15 @@ As credenciais do MongoDB devem ser fornecidas via variáveis de ambiente (ou em
 ### Comandos Comuns
 - **Build do projeto:**
   ```powershell
-  .\amper.bat build
+  .\kotlin.bat build
   ```
 - **Rodar a aplicação:**
   ```powershell
-  .\amper.bat run
+  .\kotlin.bat run
   ```
 - **Rodar os testes:**
   ```powershell
-  .\amper.bat test
+  .\kotlin.bat test
   ```
 
 ---
@@ -150,7 +150,7 @@ Essas exceções são mapeadas para respostas HTTP em `src/plugins/StatusPages.k
 
 ## Testes
 
-Os testes são executados via Amper (`.\amper.bat test`).
+Os testes são executados via Kotlin Toolchain (`.\kotlin.bat test`).
 
 - **Testes unitários:** ficam em `test/`, usam anotações de `kotlin.test` e **não devem** depender de serviços externos (como o MongoDB).
 - **Testes de integração:** usam `testApplication { ... }` do Ktor. Garanta dados mock ou um banco de teste configurado — testes que carregam a aplicação completa falham sem as credenciais do MongoDB.
