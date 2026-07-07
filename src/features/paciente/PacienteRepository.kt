@@ -15,6 +15,7 @@ interface PacienteRepository {
     suspend fun findAll(): List<Paciente>
     suspend fun findById(id: String): Paciente?
     suspend fun findByName(nome: String): List<Paciente>
+    suspend fun findByCpf(cpf: String): Paciente?
     suspend fun replace(id: String, paciente: Paciente): Paciente?
     suspend fun deleteById(id: String): Paciente?
 }
@@ -36,6 +37,9 @@ class PacienteMongoRepository(database: MongoDatabase) : PacienteRepository {
 
     override suspend fun findByName(nome: String): List<Paciente> =
         collection.find(Filters.eq("nome", nome)).toList()
+
+    override suspend fun findByCpf(cpf: String): Paciente? =
+        collection.find(Filters.eq("cpf", cpf)).firstOrNull()
 
     override suspend fun replace(id: String, paciente: Paciente): Paciente? =
         collection.findOneAndReplace(Filters.eq("_id", ObjectId(id)), paciente)

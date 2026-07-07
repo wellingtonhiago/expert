@@ -21,6 +21,11 @@ class PacienteService(
         return repository.findByName(nome)
     }
 
+    suspend fun readByCpf(cpf: String): Paciente? {
+        require(cpf.isNotBlank()) { "cpf para busca não pode ser vazio" }
+        return repository.findByCpf(cpf)
+    }
+
     suspend fun update(id: String, paciente: Paciente): Paciente? =
         repository.replace(id, paciente)
 

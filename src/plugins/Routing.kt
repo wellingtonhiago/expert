@@ -1,6 +1,7 @@
 package ai.plugins
 
-import ai.features.test.ai.aiRoutes
+import ai.example.aiRoutesTest
+import ai.features.nutriai.nutriAiRoutes
 import ai.features.nutricionista.nutricionistaRoutes
 import ai.features.paciente.pacienteRoutes
 import io.ktor.server.application.Application
@@ -20,5 +21,6 @@ fun Application.configureRouting() {
     }
     pacienteRoutes()
     nutricionistaRoutes()
-    aiRoutes()
+    aiRoutesTest()
+    nutriAiRoutes()
 }

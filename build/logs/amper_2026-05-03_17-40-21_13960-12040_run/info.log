@@ -1,4 +1,0 @@
-JetBrains Amper version 0.10.0 (21d29c8, 2026-03-30)
-running on Windows 11 10.0 jvm arch amd64
-
-00:02.668 INFO  :expert:compileJvm        JvmCompileTask            Compiling module 'expert' for platform 'jvm'...
